@@ -1,7 +1,7 @@
 package Problems;
 
 public class Problem7_ReverseInteger {
-    public int solution(int num) {
+    public static int solution(int num) {
         String numS = Integer.toString(num);
         String newS;
         if (numS.startsWith("-") && numS.endsWith("0")) {

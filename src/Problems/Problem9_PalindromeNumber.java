@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 
 public class Problem9_PalindromeNumber {
-    public boolean solution(int num) {
+    public static boolean solution(int num) {
         int initialNum = num;
         int newNum = 0;
         int i = 0;
