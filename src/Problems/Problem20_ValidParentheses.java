@@ -2,12 +2,12 @@ package Problems;
 import java.io.*;
 import java.util.*;
 
-public class Problem20_ValidParentheses {
+public  class Problem20_ValidParentheses {
 
-    public boolean solution(String s) {
+    public static boolean solution(String s) {
 
 
-        Stack<Character> stack = new Stack<>() {};
+        Stack<Character> stack = new Stack<Character>() {};
 
         for (int i = 0; i < s.length(); i++) {
 
