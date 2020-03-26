@@ -1,6 +1,6 @@
 package Problems;
 
-import utils.ListNode;
+import Utils.ListNode;
 
 public class Problem83_RemoveDuplicatesFromSortedList {
 
