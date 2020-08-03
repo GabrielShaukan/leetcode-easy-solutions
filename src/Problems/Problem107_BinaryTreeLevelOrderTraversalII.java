@@ -1,4 +1,6 @@
 package Problems;
+import Utils.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -7,7 +9,7 @@ public class Problem107_BinaryTreeLevelOrderTraversalII {
 
     int counter = 0;
 
-    public List<List<Integer>> levelOrderBottom(utils.TreeNode root) {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> answer = new ArrayList<List<Integer>>(5);
         if(root == null) return answer;
         answer.add(new ArrayList<Integer>(4));
@@ -16,7 +18,7 @@ public class Problem107_BinaryTreeLevelOrderTraversalII {
         return answer;
     }
 
-    public void check(utils.TreeNode root, List<List<Integer>> answer, int level) {
+    public void check(TreeNode root, List<List<Integer>> answer, int level) {
         if (root == null) return;
         if (level > counter) {
             answer.add(new ArrayList<Integer>(4));

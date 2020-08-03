@@ -1,6 +1,6 @@
 package Problems;
 
-import utils.TreeNode;
+import Utils.TreeNode;
 
 public class Problem104_MaximumDepthOfBinaryTree {
 
